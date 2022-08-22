@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Vending Machine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div style="margin-bottom: 10px;">
+
+      <h1>Soda Vending Machine</h1>
+      <h2>Insert Your Quarters at the Bottom</h2>
+      <h2>Then Select Your Choice of Soda</h2>
+      <h2>(All Sodas are .50 cent)</h2>
+
+    <span class="soda-group">
+      <button value="Coke" id="coke" onclick="dispenseSoda(0)">Coke</button>
+      <button value="Pepsi" id="moxie" onclick="dispenseSoda(1)">Pepsi</button>
+      <button value="Dr. Pepper" id="fresca" onclick="dispenseSoda(2)">Dr. Pepper</button>
+    </span>
+    <br>
+    <button value="Cancel" id="cancel" onclick="cancel()">Cancel</button>
+
+
+    <form style="margin-bottom: 10px;">
+        <span>Quarters</span> <input type="number" name="quarters" id="quarters" placeholder="0" value="0" oninput="tally()"><br>
+    </form>
+  </div>
+
+    <h2>Total Entered: $<span id="paid">0</span></h2>
+
+    <h2 id="message">Insert money first. Select a soda.</h2>
+
+    <script src="vending.js?1"></script>
+</body>
+
+</html>

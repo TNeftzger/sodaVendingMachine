@@ -1,0 +1,89 @@
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Avenir, sans-serif;
+	color: #384047;
+    
+}
+
+div {
+    max-width: 500px;
+	margin: 10px auto;
+	padding: 10px 20px;
+	background: #c1dbeb;
+	border-radius: 8px;
+}
+
+form {
+    max-width: 600px;
+	margin: 10px auto;
+	padding: 10px 20px;
+	background: #c1dbeb;
+	border-radius: 8px;
+}
+
+
+
+h1 {
+	margin: 0 0 30px 0;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+input[type="text"],
+select {
+	background: rgba(255,255,255,0.1);
+	border: none;
+	font-size: 16px;
+	height: auto;
+	margin: 0;
+	outline: 0;
+	padding: 15px;
+	width: 100%;
+	background-color: #e8eeef;
+	color: #8a97a0;
+	margin-bottom: 10px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #d00c3a;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #d00c3a;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+  float: left; 
+}
+
+fieldset {
+  margin-top: 100px;
+  border: none;
+}
+
+.soda-group button {
+  background-color: #04AA6D; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+}
+
+
+@media screen and (min-width: 480px) {
+
+  form {
+    max-width: 480px;
+  }
+
+}
