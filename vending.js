@@ -1,7 +1,3 @@
-// Create by: Jason Myers
-// Date: May 11, 2019
-// Project: Vending Machine
-
 var messageEl = document.getElementById("message")
 var paidEl = document.getElementById("paid")
 
