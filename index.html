@@ -11,17 +11,18 @@
 
 <body>
     <script src="https://ak.sail-horizon.com/spm/spm.v1.min.js"></script>
-    <script>Sailthru.init({ customerId: '67007a2e356a88b974c4e3e894a18c71',
-isCustom: true,
-autoTrackPageview: false,
-excludeContent:false
+    <script type="text/javascript">
+
+Sailthru.init({ customerId: '67007a2e356a88b974c4e3e894a18c71' , isCustom: true,
+autoTrackPageview: false, useStoredTags: false });
+
+Sailthru.track('pageview', { 
+   url: "https://www.testcompare.com/4132-SailThru-User-Tracking/", 
+   tags: ["one","two","three"] 
+   onSuccess : function() {console.log('trackPageView success note');}, 
+   onError : function() {console.log('trackPageView failure note');}
 });
-Sailthru.track('pageview', {
-useStoredTags: false,
-url: "https://www.testcompare.com/4132-SailThru-User-Tracking/",
-title:"Test Title",
-tags: ["tag1","tag2","testRekha"]
-});
+
 </script>
 
     <div style="margin-bottom: 10px;">
