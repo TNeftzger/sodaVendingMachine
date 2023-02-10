@@ -18,7 +18,7 @@ autoTrackPageview: false, useStoredTags: false });
 
 Sailthru.track('pageview', { 
    url: "https://www.testcompare.com/4132-SailThru-User-Tracking/", 
-   tags: ["one","two","three"] 
+   tags: ["one","two","three"],
    onSuccess : function() {console.log('trackPageView success note');}, 
    onError : function() {console.log('trackPageView failure note');}
 });
