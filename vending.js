@@ -20,14 +20,14 @@ Sailthru.integration('customEvent', {
 
 //Add to Cart Functionality - Sailthru
 Sailthru.integration("addToCart", {
-  "email": "tneftzger@campaignmonitor.com",
+  "email": "ahays@sailthru.com",
   "items": [{
-    "url": "http://example.com/item/12345",
+    "url": "https://varickandvandam.com/collections/men-accessories/products/1167959",
     "qty": 1,
     "sku": 123456789, 
-    "title": "Great Boots",
+    "title": "Stylish Backpack",
     "price": 13900,
-    "images": {"full": "http://example.com/image/12345.png"}, 
+    "images": {"full": "https://cdn.shopify.com/s/files/1/1531/3835/products/1167959_1_large_bcf96c32-415c-4ecd-8633-73d596d5c73c_grande.jpg"}, 
     "vars" : {"discount": 123} 
   }],
    "vars" : {"free_shipping": "yes"} 
