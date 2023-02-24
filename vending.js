@@ -12,6 +12,21 @@ const currency_quarter = 0.25
 
 const price = .50
 
+//Add to Cart Functionality - Sailthru
+Sailthru.integration("addToCart", {
+  "email": "tneftzger@campaignmonitor.com",
+  "items": [{
+    "url": "http://example.com/item/12345",
+    "qty": 1,
+    "sku": 123456789, 
+    "title": "Great Boots",
+    "price": 13900,
+    "images": {"full": "http://example.com/image/12345.png"}, 
+    "vars" : {"discount": 123} 
+  }],
+   "vars" : {"free_shipping": "yes"} 
+ });
+
 // Calculates how much money was entered
 function getTotal() {
     var currency_quarters = Number(document.getElementById("quarters").value)
