@@ -12,6 +12,12 @@ const currency_quarter = 0.25
 
 const price = .50
 
+//Custom Event Testing for Sailthru
+Sailthru.integration('customEvent', {
+    "name" : "completedCourse", 
+    "email" : "tneftzger@campaignmonitor.com"
+});
+
 //Add to Cart Functionality - Sailthru
 Sailthru.integration("addToCart", {
   "email": "tneftzger@campaignmonitor.com",
