@@ -20,7 +20,7 @@ Sailthru.integration('customEvent', {
 
 //Add to Cart Functionality - Sailthru
 Sailthru.integration("addToCart", {
-  "email": "ahays@sailthru.com",
+  "email": "tneftzger@campaignmonitor.com",
   "items": [{
     "url": "https://varickandvandam.com/collections/men-accessories/products/1167959",
     "qty": 1,
