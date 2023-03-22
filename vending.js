@@ -18,6 +18,17 @@ Sailthru.integration('customEvent', {
     "email" : "tneftzger@campaignmonitor.com"
 });
 
+//Purchase Test
+Sailthru.integration("purchase", {
+  "email": "jenneymcg@aol.com",
+  "items": [{
+    "sku": 52568820,
+    "qty": 1,
+    "title": "Norwegian Cruise Line",
+    "price": 79.68
+  }],
+ );
+
 //Add to Cart Functionality - Sailthru
 Sailthru.integration("addToCart", {
   "email": "tneftzger@campaignmonitor.com",
