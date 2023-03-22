@@ -19,7 +19,7 @@ Sailthru.integration('customEvent', {
 });
 
 //Purchase Test
-Sailthru.integration("purchase", {
+Sailthru.integration('purchase', {
   "email": "jenneymcg@aol.com",
   "items": [{
     "sku": 52568820,
