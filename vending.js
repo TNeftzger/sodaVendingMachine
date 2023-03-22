@@ -22,10 +22,10 @@ Sailthru.integration('customEvent', {
 Sailthru.integration("purchase", {
   "email": "jenneymcg@aol.com",
   "items": [{
-    "sku": 52568820,
-    "qty": 1,
-    "title": "Norwegian Cruise Line",
-    "price": 79.68
+    "sku": 123456789,
+    "qty":1
+    "title": "Stylish Backpack",
+    "price": 13900,
   }],
 });
 
