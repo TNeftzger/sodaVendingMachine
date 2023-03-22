@@ -18,17 +18,6 @@ Sailthru.integration('customEvent', {
     "email" : "tneftzger@campaignmonitor.com"
 });
 
-//Purchase Test
-Sailthru.integration("purchase", {
-  "email": "jenneymcg@aol.com",
-  "items": [{
-    "sku": 123456789,
-    "qty":1
-    "title": "Stylish Backpack",
-    "price": 13900,
-  }],
-});
-
 //Add to Cart Functionality - Sailthru
 Sailthru.integration("addToCart", {
   "email": "tneftzger@campaignmonitor.com",
