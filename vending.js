@@ -26,8 +26,8 @@ Sailthru.integration("purchase", {
     "qty": 1,
     "title": "Norwegian Cruise Line",
     "price": 79.68
-  }],
- );
+  }]
+});
 
 //Add to Cart Functionality - Sailthru
 Sailthru.integration("addToCart", {
