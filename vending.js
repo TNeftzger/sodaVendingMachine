@@ -33,7 +33,7 @@ Sailthru.integration("purchase", {
     "purchase_keys": {
         "extid":"123"
     },
-    "message_id":"23432.231",
+    "message_id":"1234567",
     "vars" : {"free_shipping": "yes"} 
 });
 
