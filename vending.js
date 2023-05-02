@@ -18,6 +18,13 @@ Sailthru.integration('customEvent', {
     "email" : "tneftzger@campaignmonitor.com"
 });
 
+//Do Not Track Test
+Sailthru.track('gdprDoNotTrack', {
+  onSuccess: <function>,
+  onError: <function>
+});
+
+
 //Add Purchase Online
 Sailthru.integration("purchase", {
     "email": "tneftzger@campaignmonitor.com",
