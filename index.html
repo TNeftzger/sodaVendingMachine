@@ -12,13 +12,9 @@
    Sailthru.init({
        customerId: '67007a2e356a88b974c4e3e894a18c71',
        isCustom: true,
-       autoTrackPageview: false
+       autoTrackPageview: true
    });
-
-   Sailthru.track('pageview', {
-       url: 'https://main.dcb7bgj9g4t93.amplifyapp.com/'
-   });
-
+    
    Sailthru.personalize({
        sections: [
            {
