@@ -36,7 +36,8 @@ Sailthru.integration("purchase", {
     "vars" : {"free_shipping": "yes"} 
 });
 
-//Add to Cart Functionality - Sailthru
+<!-- 
+Add to Cart Functionality - Sailthru
 Sailthru.integration("addToCart", {
   "email": "tneftzger@campaignmonitor.com",
   "channel": "app",
@@ -50,7 +51,7 @@ Sailthru.integration("addToCart", {
     "vars" : {"discount": 123} 
   }],
    "vars" : {"free_shipping": "yes"} 
- });
+ }); //-->
 
 // Calculates how much money was entered
 function getTotal() {
