@@ -29,7 +29,10 @@ Sailthru.integration("purchase", {
     "images": {"full": "https://cdn.shopify.com/s/files/1/1531/3835/products/1167959_1_large_bcf96c32-415c-4ecd-8633-73d596d5c73c_grande.jpg"}, 
     "vars" : {"discount": 123} 
   }],
-    "vars" : {"free_shipping": "yes"} 
+    "vars" : {"free_shipping": "yes"},
+    "cookies": {
+        "sailthru_pc": "003f54695cfdcf42189a680a030aa4d45d9c230940-1ba3-11e6-860e-0242ac1300080000000000000000000000009c230940-1ba3-11e6-860e-0242ac1300089c230940-1ba3-11e6-860e-0242ac1300080000"
+    }
 });
 
 // Calculates how much money was entered
