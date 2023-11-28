@@ -18,7 +18,14 @@ autoTrackPageview: false});
 Sailthru.integration("userSignUp",
 {
   "email" : "tneftzger@campaignmonitor.com",
-  "source" : "visitWebsite"
+  "source" : "visitWebsite",
+  "onSuccess" : function() {
+    alert('Thank you for signing up for our list');
+   },
+  "onError" : function() {
+    alert('We encountered an issue signing you up. Please try again');
+   }
+});
 });
 </script>
 </head>
