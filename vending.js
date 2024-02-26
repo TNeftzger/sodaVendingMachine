@@ -25,6 +25,10 @@ Sailthru.integration("purchase", {
     "url": "https://varickandvandam.com/collections/men-accessories/products/1167959",
     "qty": 1,
     "title": "Stylish Backpack",
+    "vars":{
+        "color":"blue",
+        "material":"stainless steel"
+    },
     "price": 13900,
     "images": {"full": "https://cdn.shopify.com/s/files/1/1531/3835/products/1167959_1_large_bcf96c32-415c-4ecd-8633-73d596d5c73c_grande.jpg"}}]
 });
