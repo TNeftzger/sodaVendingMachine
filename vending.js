@@ -14,7 +14,7 @@ const price = .50
 
 //Custom Event Testing for Sailthru
 Sailthru.integration('customEvent', {
-    "name" : "completedCourse", 
+    "name" : "needToCheckSite", 
     "email" : "tneftzger@campaignmonitor.com"
 });
 
