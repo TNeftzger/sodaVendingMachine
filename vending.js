@@ -10,7 +10,7 @@ var sodas = ["Coke", "Pepsi", "Dr. Pepper"]
 
 const source = "overlay"
 const showOverlay = () => {
-    if (!source) {
+    if (source) {
         return false
     }
 }
