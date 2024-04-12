@@ -26,6 +26,20 @@ Sailthru.integration('customEvent', {
     "email" : "tneftzger@campaignmonitor.com"
 });
 
+Sailthru.integration("addToCart", {
+  "email": "user@example.com",
+  "items": [{
+    "url": "http://example.com/item/12345",
+    "qty": 1,
+    "sku": 123456789, 
+    "title": "Great Boots",
+    "price": 13900,
+    "images": {"full": "http://example.com/image/12345.png"}, 
+    "vars" : {"discount": 123} 
+  }],
+   "vars" : {"free_shipping": "yes"} 
+ });
+
 //Add Purchase Online
 Sailthru.integration("purchase", {
     "email": "tneftzger@campaignmonitor.com",
