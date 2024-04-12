@@ -27,7 +27,7 @@ Sailthru.integration('customEvent', {
 });
 
 Sailthru.integration("addToCart", {
-  "email": "user@example.com",
+  "email": "tneftzger+1@campaignmonitor.com",
   "items": [{
     "url": "http://example.com/item/12345",
     "qty": 1,
