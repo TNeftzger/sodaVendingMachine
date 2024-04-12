@@ -8,14 +8,6 @@ var moneyInserted = 0
 var totalPaid = 0
 var sodas = ["Coke", "Pepsi", "Dr. Pepper"]
 
-const source = "overlay"
-const showOverlay = () => {
-    if (source) {
-        return false
-    }
-}
-Sailthru.init({ customerId: '67007a2e356a88b974c4e3e894a18c71', onBeforeOverlayRender: showOverlay });
-
 const currency_quarter = 0.25
 
 const price = .50
