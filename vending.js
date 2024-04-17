@@ -33,6 +33,28 @@ Sailthru.integration("purchase", {
     "images": {"full": "https://cdn.shopify.com/s/files/1/1531/3835/products/1167959_1_large_bcf96c32-415c-4ecd-8633-73d596d5c73c_grande.jpg"}}]
 });
 
+//Add Purchase Online
+Sailthru.integration("purchase", {
+    "email": "tneftzger@campaignmonitor.com",
+    "items": [{
+    "url": "https://www.mobile.sailthru.com/not-a-real-item",
+    "qty": 1,
+    "title": "Lovely Coat",
+    "vars":{
+        "attire":"nighttime",
+        "material":"satin"
+    },
+    "price": 9900,
+    "images": {
+        "full": {
+            "url":"https://image.s5a.com/is/image/saks/0400017951451_MULTI"
+        },
+        "thumb":{
+            "url" : "https://image.s5a.com/is/image/saks/0400017951451_MULTI"
+        }
+    }]
+});
+
 // Calculates how much money was entered
 function getTotal() {
     var currency_quarters = Number(document.getElementById("quarters").value)
