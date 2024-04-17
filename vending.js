@@ -12,33 +12,6 @@ const currency_quarter = 0.25
 
 const price = .50
 
-//Add Purchases Online
-Sailthru.integration("purchase", {
-    "email": "tneftzger@campaignmonitor.com",
-    "items": [{
-            "url": "https://varickandvandam.com/collections/men-accessories/products/1167959",
-            "sku": 918273645, 
-            "qty": 1,
-            "title": "Stylish Backpack",
-            "price": 13900,
-            "images": {"https://cdn.shopify.com/s/files/1/1531/3835/products/1167959_1_large_bcf96c32-415c-4ecd-8633-73d596d5c73c_grande.jpg"}, 
-            "vars" : {"color":"blue","material":"stainless steel"}    
-        }],
-});
-
-Sailthru.integration("purchase", {
-    "email": "tneftzger@campaignmonitor.com",
-    "items": [{
-            "url": "https://www.mobile.sailthru.com/not-a-real-item",
-            "sku": 12675432, 
-            "qty": 1,
-            "title": "Lovely Coat",
-            "price": 9900,
-            "images": {"https://image.s5a.com/is/image/saks/0400017951451_MULTI"}, 
-            "vars" : {"attire":"nighttime","material":"satin"}    
-        }],
-});
-
 // Calculates how much money was entered
 function getTotal() {
     var currency_quarters = Number(document.getElementById("quarters").value)
