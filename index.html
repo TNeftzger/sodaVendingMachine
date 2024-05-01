@@ -38,7 +38,18 @@
 
     <script src="vending.js?1"></script>
     <script src="https://ak.sail-horizon.com/spm/spm.v1.min.js"></script>
-    <script>Sailthru.init({ customerId: '67007a2e356a88b974c4e3e894a18c71' });</script>
+<script type="text/javascript">
+
+Sailthru.init({ customerId: '67007a2e356a88b974c4e3e894a18c71' , isCustom: true,
+autoTrackPageview: false, useStoredTags: false });
+
+Sailthru.track('pageview', { 
+   url: 'https://main.d1dnz8w4yqtxaz.amplifyapp.com', 
+   onSuccess : function() {console.log('trackPageView success note');}, 
+   onError : function() {console.log('trackPageView failure note');}
+});
+
+</script>
 </body>
 
 </html>
