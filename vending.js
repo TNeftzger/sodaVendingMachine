@@ -12,17 +12,6 @@ const currency_quarter = 0.25
 
 const price = .50
 
-Sailthru.integration("purchase", {
-    "email": "tneftzger@campaignmonitor.com",
-    "items": [{
-            "url": "https://varickandvandam.com/collections/men-accessories/products/1167959",
-            "sku": 918273645, 
-            "qty": 1,
-            "title": "Stylish Backpack",
-            "price": 13900   
-        }],
-});
-
 // Calculates how much money was entered
 function getTotal() {
     var currency_quarters = Number(document.getElementById("quarters").value)
