@@ -49,20 +49,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <script src="vending.js?1"></script>
     <script src="https://ak.sail-horizon.com/spm/spm.v1.min.js"></script>
-<script type="text/javascript">
-
-Sailthru.init({ customerId: '67007a2e356a88b974c4e3e894a18c71' , isCustom: true,
-autoTrackPageview: false, useStoredTags: false });
+    <script>Sailthru.init({ customerId: '67007a2e356a88b974c4e3e894a18c71' });</script>
+<script>
 
     Sailthru.integration("userSignUp",
 {
-  "email" : "tneftzger@campaignmonitor.com"
-});
-
-Sailthru.track('pageview', { 
-   url: "http://example.com/product/", 
-   onSuccess : function() {console.log('trackPageView success note');}, 
-   onError : function() {console.log('trackPageView failure note');}
+  "email" : "meMeMe@campaignmonitor.com"
 });
 
 </script>
