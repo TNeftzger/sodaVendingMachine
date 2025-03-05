@@ -2,7 +2,8 @@
 
 <head lang="en">
     <meta charset="UTF-8">
-
+    <script src="https://ak.sail-horizon.com/spm/spm.v1.min.js"></script>
+    <script>Sailthru.init({ hostWebsiteType:"spa", customerId: '67007a2e356a88b974c4e3e894a18c71' });</script>
 </head>
 
 <script>
@@ -17,7 +18,13 @@ function render() {
 }
 
 // Update state, history, and user interface
-onnect your button to the handler above to trigger on click
+function handleButtonClick() {
+  state.buttonText = "Click count = " + count
+  render(state);
+  Sailthru.init({ customerId: '67007a2e356a88b974c4e3e894a18c71' })
+  count++
+}
+// Connect your button to the handler above to trigger on click
 button.addEventListener("click", handleButtonClick);
 
 /* End JavaScript */
